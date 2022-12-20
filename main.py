@@ -2,10 +2,11 @@
 Programme fait par Alexander Precup
 Groupe: 402
 Description: Objets orientées
-Exercise 2 - Écrire une classe Cercle
+Exercise 3 - Écrire une classe Cercle
 """
 
 from math import pi
+
 
 class Cercle():
     def __init__(self, rayon):
@@ -16,6 +17,7 @@ class Cercle():
 
     def calculer_circonference(self):
         return 2 * pi * self.rayon
+
 
 c = Cercle(10)
 c_aire = c.calculer_aire()
