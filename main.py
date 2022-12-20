@@ -8,7 +8,7 @@ Exercise 3 - Écrire une classe Cercle
 from math import pi
 
 
-class Cercle():
+class Cercle:
     def __init__(self, rayon):
         self.rayon = rayon
 
